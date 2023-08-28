@@ -104,6 +104,41 @@
     <footer id="contact-me">
       <h2>Contact me</h2>
       <p>mamurrio89@gmail.com</p>
+      <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Get a reference to the form
+        const contactForm = document.getElementById('contactForm');
+
+        // Add event listener for form submission
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Get input values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Basic input validation
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill out all fields.');
+            } else {
+                // You can perform further processing here, like sending data to a server
+                alert('Form submitted successfully!');
+            }
+        });
+    </script>
     </footer>
     <script src="src/app.js"></script>
   </body>
