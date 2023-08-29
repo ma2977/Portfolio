@@ -60,7 +60,7 @@ p {
     margin-bottom: 200px;
     float: left;
 }
-.portfolio:link, .portfolio:visited {
+/* .portfolio:link, .portfolio:visited {
     width: 200px;
     height: 55px;
     border-radius: 30px;
@@ -74,7 +74,7 @@ p {
   
   .portfolio:hover, .portfolio:active {
     background-color: coral;
-  }
+  } */
 .button {
     width: 200px;
     height: 55px;
