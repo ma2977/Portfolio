@@ -67,9 +67,9 @@ p {
     background-color: coral;
     text-align: center;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 250;
     padding-top: 5px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .portfolio:hover, .portfolio:active {
