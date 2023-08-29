@@ -60,7 +60,7 @@ p {
     margin-bottom: 200px;
     float: left;
 }
-a:link, a:visited {
+.portfolio:link, .portfolio:visited {
     width: 200px;
     height: 55px;
     border-radius: 30px;
@@ -72,7 +72,7 @@ a:link, a:visited {
     margin-top: 20px;
   }
   
-  a:hover, a:active {
+  .portfolio:hover, .portfolio:active {
     background-color: coral;
   }
 .button {
